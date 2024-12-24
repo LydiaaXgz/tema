@@ -10,11 +10,11 @@ MAGENTA='\033[0;35m'
 CYAN='\033[0;36m'
 
 # License key variable
-LICENSE_KEY="ahmadganteng"
+LICENSE_KEY="lydiaa"
 
 # Function to check license
 check_license() {
-    if [ "$LICENSE_KEY" == "ahmadganteng" ]; then
+    if [ "$LICENSE_KEY" == "lydiaa" ]; then
         return 0
     else
         return 1
